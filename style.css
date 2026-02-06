@@ -1,0 +1,28 @@
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 { margin: 10px; }
+
+.container {
+  position: relative;
+  width: 360px;
+  margin: auto;
+}
+
+video, canvas {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

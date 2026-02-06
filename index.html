@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Eye & Gesture Control</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+</head>
+
+<body>
+<h1>👁️ Eye & Hand Gesture Control</h1>
+
+<div class="container">
+  <video id="video" autoplay></video>
+  <canvas id="canvas"></canvas>
+</div>
+
+<div class="controls">
+  <button id="play">▶ Play</button>
+  <button id="pause">⏸ Pause</button>
+  <button id="next">⏭ Next</button>
+</div>
+
+<p id="status">Waiting for gestures...</p>
+
+<script src="script.js"></script>
+</body>
+</html>
